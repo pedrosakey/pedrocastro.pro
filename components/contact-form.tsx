@@ -97,7 +97,7 @@ export function ContactForm() {
           </span>
         ) : (
           <span className="flex items-center gap-2">
-            Send Message
+            Let’s talk
             <Send className="h-4 w-4" />
           </span>
         )}

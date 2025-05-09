@@ -15,7 +15,7 @@ const expertiseAreas = [
     buttonColor: "bg-[#0071e3] hover:bg-[#0077ed]",
   },
   {
-    title: "Product Strategy",
+    title: "Lean Development",
     subtitle: "From idea to roadmap — validate early, reduce risk, and focus on what really matters.",
     icon: Search,
     action: "#contact",
@@ -49,17 +49,17 @@ export function HeroSection() {
               backgroundImage: "linear-gradient(to right, #0095ff, #4285f4, #b967ff, #e94c89, #ff3b6b, #ff5630)",
             }}
           >
-            iOS Development · Product Strategy · AI Solutions
+            iOS&nbsp;Development · Lean&nbsp;Development · AI&nbsp;Solutions
           </p>
           <h1 className="mb-3 text-4xl font-medium tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
             Pedro Castro
           </h1>
           <h2 className="mb-4 text-xl font-medium text-gray-700 sm:text-2xl md:text-3xl">
-            Building Digital Products with Code, AI, and Purpose
+            Start Smart. Grow Smarter.
           </h2>
           <p className="mx-auto mb-12 max-w-2xl text-lg text-gray-600">
-            I help founders and teams turn ideas into real, scalable digital products.<br />
-            From native apps to smart automations, I combine iOS development, AI tools, and product strategy to move fast and build with clarity.
+          Whether you're starting from zero or refining something already built, I help founders and teams build, improve, and scale meaningful digital products — leveraging iOS, AI, and strategic business insight.
+            
           </p>
           <Button
             className="rounded-full bg-[#0071e3] px-8 py-6 text-white hover:bg-[#0077ed]"
