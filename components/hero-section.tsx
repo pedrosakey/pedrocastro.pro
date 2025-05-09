@@ -71,11 +71,11 @@ export function HeroSection() {
       </section>
 
       {/* Divider */}
-      <div className="h-8 bg-white dark:bg-white/10 w-full relative z-10" />
+      <div className="h-4 md:h-8 bg-white dark:bg-white/10 w-full relative z-10" />
 
       {/* Expertise Grid estilo Apple mejorado */}
-      <section className="my-8 px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[90rem] mx-auto px-8 md:px-20 h-full">
+      <section className="my-4 md:my-8 px-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-[100rem] mx-auto px-0 md:px-8 h-full">
           {/* iOS Development */}
           <div className="flex flex-col items-start text-left px-10 py-14 bg-gradient-to-b from-gray-100 to-white rounded-none transition md:h-full min-h-[22rem] md:min-h-[28rem]">
             <h3 className="text-[28px] sm:text-[32px] font-semibold text-gray-900 tracking-tight mb-2">
