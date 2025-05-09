@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Smartphone, Search, Cpu, ArrowRight } from "lucide-react"
 import { HeroBackground } from "./hero-background"
 import { cn } from "@/lib/utils"
-
+/*expertiseAreas*/
 const expertiseAreas = [
   {
     title: "iOS Development",
