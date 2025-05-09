@@ -27,7 +27,7 @@ export function ProjectsSection() {
   return (
     <section className="py-20">
       <div className="container">
-        <h2 className="mb-12 text-center text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
+        <h2 className="mb-12 text-center text-3xl font-bold tracking-tight text-gray-900">
           Selected Projects
         </h2>
 
@@ -35,18 +35,18 @@ export function ProjectsSection() {
           {projects.map((project) => (
             <div
               key={project.title}
-              className="flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all duration-200 hover:shadow-md dark:border-gray-800 dark:bg-gray-900"
+              className="flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all duration-200 hover:shadow-md"
             >
               <div className="mb-4 flex items-center justify-between">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-gray-50">{project.title}</h3>
+                <h3 className="text-xl font-bold text-gray-900">{project.title}</h3>
                 <Badge variant="outline" className="rounded-full px-3 py-1 text-xs font-medium">
                   {project.status}
                 </Badge>
               </div>
-              <p className="mb-6 flex-1 text-gray-600 dark:text-gray-400">{project.description}</p>
+              <p className="mb-6 flex-1 text-gray-600">{project.description}</p>
               <Button
                 variant="ghost"
-                className="group mt-auto flex w-full items-center justify-center gap-2 text-gray-700 dark:text-gray-300"
+                className="group mt-auto flex w-full items-center justify-center gap-2 text-gray-700"
                 asChild
               >
                 <a href={project.link}>

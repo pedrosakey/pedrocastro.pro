@@ -41,7 +41,7 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="mx-auto max-w-md space-y-6">
+    <form onSubmit={handleSubmit} className="mx-auto max-w-xl space-y-6">
       <div className="space-y-4">
         <div>
           <Input
@@ -50,7 +50,7 @@ export function ContactForm() {
             value={formState.name}
             onChange={handleChange}
             required
-            className="rounded-lg border-gray-300 bg-white px-4 py-3 focus:border-[#0071e3] focus:ring-[#0071e3] dark:border-gray-700 dark:bg-gray-800"
+            className="rounded-lg border border-gray-200 bg-white px-4 py-3 shadow-sm focus:border-[#0071e3] focus:ring-[#0071e3]"
           />
         </div>
 
@@ -62,7 +62,7 @@ export function ContactForm() {
             value={formState.email}
             onChange={handleChange}
             required
-            className="rounded-lg border-gray-300 bg-white px-4 py-3 focus:border-[#0071e3] focus:ring-[#0071e3] dark:border-gray-700 dark:bg-gray-800"
+            className="rounded-lg border border-gray-200 bg-white px-4 py-3 shadow-sm focus:border-[#0071e3] focus:ring-[#0071e3]"
           />
         </div>
 
@@ -73,7 +73,7 @@ export function ContactForm() {
             value={formState.message}
             onChange={handleChange}
             required
-            className="min-h-[150px] rounded-lg border-gray-300 bg-white px-4 py-3 focus:border-[#0071e3] focus:ring-[#0071e3] dark:border-gray-700 dark:bg-gray-800"
+            className="min-h-[150px] rounded-lg border border-gray-200 bg-white px-4 py-3 shadow-sm focus:border-[#0071e3] focus:ring-[#0071e3] dark:border-gray-700 dark:bg-gray-800"
           />
         </div>
       </div>
@@ -81,7 +81,7 @@ export function ContactForm() {
       <Button
         type="submit"
         disabled={isSubmitting}
-        className="w-full rounded-full bg-[#0071e3] px-8 py-6 text-white hover:bg-[#0077ed] dark:bg-[#0A84FF] dark:hover:bg-[#0077ed]"
+        className="w-full rounded-full bg-[#0071e3] px-8 py-6 text-white hover:bg-[#0077ed]"
       >
         {isSubmitting ? (
           <span className="flex items-center gap-2">
@@ -104,7 +104,7 @@ export function ContactForm() {
       </Button>
 
       {isSubmitted && (
-        <div className="mt-4 rounded-md bg-green-50 p-4 text-center text-green-800 dark:bg-green-900/30 dark:text-green-400">
+        <div className="mt-4 rounded-md bg-green-50 p-4 text-center text-green-800 ">
           Thank you! Your message has been sent.
         </div>
       )}
