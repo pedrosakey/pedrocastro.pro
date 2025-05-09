@@ -85,10 +85,11 @@ export function HeroSection() {
               {expertiseAreas[0].subtitle}
             </p>
             <a
-              href={expertiseAreas[0].action}
-              className="text-[#0071e3] text-sm font-medium hover:underline transition"
+              href="#contact"
+              className="inline-block rounded-full bg-blue-600 hover:bg-blue-700 px-5 py-2 text-white text-sm font-medium transition-all hover:shadow-md hover:scale-[1.02]"
+              aria-label="Contact for iOS app development"
             >
-              {expertiseAreas[0].cta}
+              Let's build your app →
             </a>
           </div>
 
@@ -101,10 +102,11 @@ export function HeroSection() {
               {expertiseAreas[1].subtitle}
             </p>
             <a
-              href={expertiseAreas[1].action}
-              className="text-[#0071e3] text-sm font-medium hover:underline transition"
+              href="#contact"
+              className="inline-block rounded-full bg-gray-800 hover:bg-gray-900 px-5 py-2 text-white text-sm font-medium transition-all hover:shadow-md hover:scale-[1.02]"
+              aria-label="Contact for product strategy consultation"
             >
-              {expertiseAreas[1].cta}
+              Talk strategy →
             </a>
           </div>
 
@@ -117,10 +119,11 @@ export function HeroSection() {
               {expertiseAreas[2].subtitle}
             </p>
             <a
-              href={expertiseAreas[2].action}
-              className="text-[#10b981] text-sm font-medium hover:underline transition"
+              href="#contact"
+              className="inline-block rounded-full bg-rose-500 hover:bg-rose-600 px-5 py-2 text-white text-sm font-medium transition-all hover:shadow-md hover:scale-[1.02]"
+              aria-label="Contact for AI solutions discussion"
             >
-              {expertiseAreas[2].cta}
+              Start an AI conversation →
             </a>
           </div>
         </div>
