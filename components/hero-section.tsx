@@ -58,7 +58,7 @@ export function HeroSection() {
             Start Smart. Grow Smarter.
           </h2>
           <p className="mx-auto mb-12 max-w-2xl text-lg text-gray-600">
-          Whether you're starting from zero or refining something already built, I help founders and teams build, improve, and scale meaningful digital products — leveraging iOS, AI, and strategic business insight.
+          Whether you're starting from zero or refining something already built, I help founders and teams build, improve, and scale meaningful digital products — leveraging iOS, AI, and strategic business insight
             
           </p>
           <Button
